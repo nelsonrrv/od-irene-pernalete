@@ -1,0 +1,177 @@
+* {
+	margin:0px;
+	padding:0px;
+}
+
+#header {
+	margin:auto;
+	width: 368px;
+	font-family:Arial, Helvetica, sans-serif;
+	align-items: center ;
+	justify-content: center;
+}
+ul, ol {
+	list-style:none;
+}
+
+.cat > li {
+	float:left;
+}
+
+.cat li a {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+	padding:10px 12px;
+	display:block;
+}
+
+.cat li a:hover {
+	background-color:#434343;
+}
+
+.cat li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.cat li:hover > ul {
+	display:block;
+}
+
+.cat li ul li {
+	position:relative;
+}
+
+.cat li ul li ul {
+	right:-140px;
+	top:0px;
+}
+
+h1 {
+	background-image: url("logo-blanco-negro.png");
+	background-size: 300px 300px;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+	width: 100%;
+	z-index: 1;
+	font-size: 16px;
+}
+
+.portada {
+	background-color:#000;
+	color:#fff;
+	height: 300px;
+	width: 100%;
+	
+}
+p {
+	text-align: center;
+	width: 90%;
+	color: #000;
+	background-color: transparent;
+	background-image: none;
+}
+.box {
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 5px;
+	font-family: sans-serif;
+	text-align: center;
+	line-height: 1;
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	max-width: 50%;
+	max-height: 50%;
+	padding: 20px 40px;
+	z-index: -1;
+  }
+  .container {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+  }
+
+  
+
+  
+.franja {
+	justify-content: center;
+	display: flex;
+	width: 100%;
+	height: 560px;
+}
+
+.fscroll {
+	background-color: #000;
+	display: flex;
+	align-self:flex-start;
+}
+
+section {
+	padding-top: 260px;
+	height: 2000px;
+}
+
+body {
+	margin: 0;
+}
+.fixed {
+	position: fixed;
+	top:0; 
+	left:0;
+	width: 100%; 
+	}
+
+	#carrusel {
+		float:left;
+		width:600px;
+		overflow:hidden;
+		height:203px;
+		position:relative;
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+	 
+	#carrusel .left-arrow {
+		position:absolute;
+		left:10px;
+		z-index:1;
+		top:50%;
+		margin-top:-9px;
+	}
+	 
+	#carrusel .right-arrow {
+		position:absolute;
+		right:10px;
+		z-index:1;
+		top:50%;
+		margin-top:-9px;
+	}
+	 
+	.carrusel {
+		width:4000px;
+		left:0px;
+		position:absolute;
+		z-index:0;
+	}
+	 
+	.carrusel>div {
+		float: left;
+		height: 203px;
+		margin-right: 5px;
+		width: 195px;
+		text-align:center;
+	}
+	 
+	.carrusel img {
+		cursor:pointer;
+	}
+	 
+	.product {
+		border:#CCCCCC 1px solid;
+	}
